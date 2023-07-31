@@ -10,14 +10,13 @@ public:
         {
             return 1;
         }
-        vector<int>dp(n+1,0);
         int prev_prev=0;
         int prev=1;
         for(int i=2;i<=n;i++)
         {
-            dp[i]=prev+prev_prev;
+            int r=prev+prev_prev;
             prev_prev=prev;
-            prev=dp[i];
+            prev=r;
         }
         return prev;
     }
