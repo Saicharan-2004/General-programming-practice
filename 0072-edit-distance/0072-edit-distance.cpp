@@ -23,19 +23,33 @@ public:
             return dp[ind1][ind2]= 1+min(helper(str1,str2,ind1,ind2-1,n,m,dp),min(helper(str1,str2,ind1-1,ind2-1,n,m,dp),helper(str1,str2,ind1-1,ind2,n,m,dp)));
         }
     }
-    int minDistance(string word1, string word2) 
+    int minDistance(string str1, string str2) 
     {
-        int n=word1.length();
-        int m=word2.length();
+        int n=str1.length();
+        int m=str2.length();
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        if(n==0)
+        for(int i=0;i<=n;i++)
         {
-            return m;
+            dp[i][0]=i;
         }
-        if(m==0)
+        for(int j=0;j<=m;j++)
         {
-            return n;
+            dp[0][j]=j;
+        }   
+        for(int ind1=1;ind1<=n;ind1++)
+        {
+            for(int ind2=1;ind2<=m;ind2++)
+            {
+                if(str1[ind1-1]==str2[ind2-1])
+                {
+                    dp[ind1][ind2]= dp[ind1-1][ind2-1];
+                }
+                else
+                {
+                    dp[ind1][ind2]= 1+min(dp[ind1][ind2-1],min(dp[ind1-1][ind2-1],dp[ind1-1][ind2]));
+                }
+            }
         }
-        return helper(word1,word2,n,m,n,m,dp);
+        return dp[n][m];
     }
 };
