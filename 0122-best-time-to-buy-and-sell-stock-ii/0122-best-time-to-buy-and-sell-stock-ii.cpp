@@ -29,11 +29,8 @@ public:
         // vector<int>curr(2,0),forw(2,0);
         for(int ind=n-1;ind>=0;ind--)
         {
-            int ans=-1;
-            ans=max(-prices[ind]+forwnotbuy,forwbuy);
-            currbuy=ans;
-            ans=max(prices[ind]+forwbuy,forwnotbuy);
-            currnotbuy=ans;
+            currbuy=max(-prices[ind]+forwnotbuy,forwbuy);
+            currnotbuy=max(prices[ind]+forwbuy,forwnotbuy);
             forwbuy=currbuy;
             forwnotbuy=currnotbuy;
         }
