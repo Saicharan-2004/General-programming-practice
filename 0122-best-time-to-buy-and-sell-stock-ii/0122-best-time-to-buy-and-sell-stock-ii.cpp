@@ -24,7 +24,8 @@ public:
     int maxProfit(vector<int>& prices) 
     {
         int n = prices.size();
-        vector<vector<int>>dp(n+1,vector<int>(2,0));
+        // vector<vector<int>>dp(n+1,vector<int>(2,0));
+        vector<int>curr(2,0),forw(2,0);
         for(int ind=n-1;ind>=0;ind--)
         {
             for(int checker=0;checker<=1;checker++)
@@ -32,15 +33,16 @@ public:
                 int ans=-1;
                 if(checker==1)
                 {
-                    ans=max(-prices[ind]+dp[ind+1][0],dp[ind+1][1]);
+                    ans=max(-prices[ind]+forw[0],forw[1]);
                 }
                 else
                 {
-                    ans=max(prices[ind]+ dp[ind+1][1],dp[ind+1][0]);
+                    ans=max(prices[ind]+forw[1],forw[0]);
                 }
-                dp[ind][checker]=ans;
+                curr[checker]=ans;
             }
+            forw=curr;
         }
-        return dp[0][1];
+        return curr[1];
     }
 };
