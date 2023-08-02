@@ -25,7 +25,23 @@ public:
     {
         int n=nums1.size();
         int m=nums2.size();
-        vector<vector<int>>dp(n,vector<int>(m,-1));
-        return helper(nums1,nums2,n-1,m-1,dp);
+        vector<vector<int>>dp(n+1,vector<int>(m+1,0));
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=m;j++)
+            {
+                int ans=INT_MIN;
+                if(nums1[i-1]==nums2[j-1])
+                {
+                    ans=max(ans,1+dp[i-1][j-1]);
+                }
+                else
+                {
+                    ans=max(ans,max(dp[i-1][j],dp[i][j-1]));
+                }
+                dp[i][j]=ans;
+            }
+        }
+        return dp[n][m];
     }
 };
