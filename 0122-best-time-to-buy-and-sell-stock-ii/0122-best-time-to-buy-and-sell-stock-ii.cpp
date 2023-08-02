@@ -13,7 +13,7 @@ public:
         int ans=-1;
         if(checker==1)
         {
-            ans=max(-prices[ind]+helper(prices,ind+1,0,dp),  helper(prices,ind+1,1,dp));
+            ans=max(-prices[ind]+helper(prices,ind+1,0,dp),helper(prices,ind+1,1,dp));
         }
         else
         {
@@ -25,24 +25,18 @@ public:
     {
         int n = prices.size();
         // vector<vector<int>>dp(n+1,vector<int>(2,0));
-        vector<int>curr(2,0),forw(2,0);
+        int currbuy=0,currnotbuy=0,forwbuy=0,forwnotbuy=0;
+        // vector<int>curr(2,0),forw(2,0);
         for(int ind=n-1;ind>=0;ind--)
         {
-            for(int checker=0;checker<=1;checker++)
-            {
-                int ans=-1;
-                if(checker==1)
-                {
-                    ans=max(-prices[ind]+forw[0],forw[1]);
-                }
-                else
-                {
-                    ans=max(prices[ind]+forw[1],forw[0]);
-                }
-                curr[checker]=ans;
-            }
-            forw=curr;
+            int ans=-1;
+            ans=max(-prices[ind]+forwnotbuy,forwbuy);
+            currbuy=ans;
+            ans=max(prices[ind]+forwbuy,forwnotbuy);
+            currnotbuy=ans;
+            forwbuy=currbuy;
+            forwnotbuy=currnotbuy;
         }
-        return curr[1];
+        return currbuy;
     }
 };
