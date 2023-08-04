@@ -18,18 +18,18 @@ public:
     }
     int numDecodings(string s) 
     {
-        int n=s.length();
-        vector<int>dp(n+2,0);
-        dp[n]=1;
+        // int n=s.length();
+        // vector<int>dp(n+2,0);
+        // dp[n]=1;
         int front=1;
         int front_front=1;
         int curr=1;
-        for(int ind=n-1;ind>=0;ind--)
+        for(int ind=s.length()-1;ind>=0;ind--)
         {
             int ans=0;
             if(s[ind]!='0')
                 ans+=front;
-            if(ind+1<n&&(s[ind]=='1'||s[ind]=='2'&&s[ind+1]<='6'))
+            if(ind+1<s.length()&&(s[ind]=='1'||s[ind]=='2'&&s[ind+1]<='6'))
             {
                 ans+=front_front;
             }
