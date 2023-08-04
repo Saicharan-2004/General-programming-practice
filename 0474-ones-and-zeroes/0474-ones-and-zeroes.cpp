@@ -35,7 +35,9 @@ public:
     int findMaxForm(vector<string>& strs, int m, int n) 
     {
         int si=strs.size();
-        vector<vector<vector<int>>>dp(si+1,vector<vector<int>>(m+1,vector<int>(n+1,0)));
+        // vector<vector<vector<int>>>dp(si+1,vector<vector<int>>(m+1,vector<int>(n+1,0)));
+        vector<vector<int>>curr(m+1,vector<int>(n+1,0));
+        vector<vector<int>>forw(m+1,vector<int>(n+1,0));
         for(int ind=si-1;ind>=0;ind--)
         {
             int countOnes=count(strs[ind].begin(),strs[ind].end(),'1');
@@ -44,16 +46,17 @@ public:
             {
                 for(int k=0;k<=n;k++)
                 {
-                    int nottake=dp[ind+1][j][k];
+                    int nottake=forw[j][k];
                     int take=0;
                     if(j>=countZeros&&k>=countOnes)
                     {
-                        take=1+dp[ind+1][j-countZeros][k-countOnes];
+                        take=1+forw[j-countZeros][k-countOnes];
                     }
-                    dp[ind][j][k]=max(take,nottake);
+                    curr[j][k]=max(take,nottake);
                 }
             }
+            forw=curr;
         }
-        return dp[0][m][n];
+        return curr[m][n];
     }
 };
