@@ -21,17 +21,22 @@ public:
         int n=s.length();
         vector<int>dp(n+2,0);
         dp[n]=1;
+        int front=1;
+        int front_front=1;
+        int curr=1;
         for(int ind=n-1;ind>=0;ind--)
         {
             int ans=0;
             if(s[ind]!='0')
-                ans+=dp[ind+1];
+                ans+=front;
             if(ind+1<n&&(s[ind]=='1'||s[ind]=='2'&&s[ind+1]<='6'))
             {
-                ans+=dp[ind+2];
+                ans+=front_front;
             }
-            dp[ind]=ans;
+            curr=ans;
+            front_front=front;
+            front=curr;
         }
-        return dp[0];
+        return curr;
     }
 };
