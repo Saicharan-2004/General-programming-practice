@@ -24,7 +24,7 @@ public:
         vector<vector<int>>dp(n+1,vector<int>(n+1,0));
         for(int ind=n-1;ind>=0;ind--)
         {
-            for(int prev=ind-1;prev>=-1;prev--)
+            for(int prev=n-1;prev>=-1;prev--)
             {
                 int ans=0;
                 ans=dp[ind+1][prev+1];
