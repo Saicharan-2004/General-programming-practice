@@ -22,19 +22,21 @@ public:
     {
         int n=nums.size();
         vector<vector<int>>dp(n+1,vector<int>(n+1,0));
+        vector<int>forw(n+1,0),curr(n+1,0);
         for(int ind=n-1;ind>=0;ind--)
         {
             for(int prev=n-1;prev>=-1;prev--)
             {
                 int ans=0;
-                ans=dp[ind+1][prev+1];
+                ans=forw[prev+1];
                 if(prev==-1||nums[ind]>nums[prev])
                 {
-                    ans=max(ans,1+dp[ind+1][ind+1]);
+                    ans=max(ans,1+forw[ind+1]);
                 }
-                dp[ind][prev+1]=ans;
+                curr[prev+1]=ans;
             }
+            forw=curr;
         }
-        return dp[0][0];
+        return curr[0];
     }
 };
