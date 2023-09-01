@@ -5,8 +5,11 @@ public:
         int count=0;
         while(i>0)
         {
-            i=(i)&(i-1);
-            count++;
+            if(i%2)
+            {
+                count++;
+            }
+            i/=2;
         }
         return count;
     }
