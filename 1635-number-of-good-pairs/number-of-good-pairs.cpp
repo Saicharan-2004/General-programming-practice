@@ -1,14 +1,14 @@
 class Solution {
 public:
-    int numIdenticalPairs(vector<int>& nums) {
-        int countGoodPairs=0;
-        for(int i=0;i<nums.size();i++){
-            for(int j=i+1;j<nums.size();j++){
-                if(nums[i]==nums[j]){
-                    countGoodPairs=countGoodPairs+1;
-                }
-            }
+    int numIdenticalPairs(vector<int>& nums) 
+    {
+        int ans=0;
+        int count[101]={0};
+        for(int i=0;i<nums.size();i++)
+        {
+            ans+=count[nums[i]];
+            count[nums[i]]++;
         }
-        return countGoodPairs;
+        return ans;
     }
 };
