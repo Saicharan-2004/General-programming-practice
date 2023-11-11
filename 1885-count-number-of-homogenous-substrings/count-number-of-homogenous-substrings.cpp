@@ -9,21 +9,17 @@ public:
         long long int count=0;
         while(end<s.length())
         {
-            if(s[end]==s[start])
-            {
-                end++;
-            }
-            else
+            if(s[end]!=s[start])
             {
                 count=end-start;
-                ans+=(((count)*(count+1))%mod)%mod/2;
-                cout<<count<<endl;
+                ans+=(((count)*(count+1)))%mod/2;
+                ans=ans%mod;
                 start=end;
-                end++;
             } 
+            end++;
         }
         count=end-start;
-        ans+=((((count%mod)*(count+1))%mod)%mod)/2;
+        ans+=((((count)*(count+1)))%mod)/2;
         return ans%mod;
     }
 };
