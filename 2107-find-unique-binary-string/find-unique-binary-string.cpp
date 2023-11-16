@@ -3,19 +3,18 @@ public:
     string findDifferentBinaryString(vector<string>& nums) 
     {
         int n=nums.size();
-        unordered_set<int>r;
-        for(auto it:nums)
+        string s="";
+        for(int i=0;i<n;i++)
         {
-            r.insert(stoi(it,0,2));
-        }
-        for(int i=0;i<=pow(2,n);i++)
-        {
-            if(r.find(i)==r.end())
+            if(nums[i][i]=='0')
             {
-                string er=bitset<16>(i).to_string();
-                return er.substr(16-n);
+                s+='1';
+            }
+            else
+            {
+                s+='0';
             }
         }
-        return " ";
+        return s;
     }
 };
