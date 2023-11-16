@@ -2,9 +2,8 @@ class Solution {
 public:
     string findDifferentBinaryString(vector<string>& nums) 
     {
-        int n=nums.size();
         string s="";
-        for(int i=0;i<n;i++)
+        for(int i=0;i<nums.size();i++)
         {
             if(nums[i][i]=='0')
             {
