@@ -4,8 +4,8 @@ public:
     {
         int counter=1;
         int n=arr.size();
-        vector<long long>right(n);
-        vector<long long>left(n);
+        vector<int>right(n);
+        vector<int>left(n);
         stack<pair<int,int>>temp;
         for(int i=0;i<n;i++)
         {
@@ -40,7 +40,7 @@ public:
         long long result = 0;
         for (int i = 0; i < n; i++) 
         {
-            result = (result + (arr[i] * left[i] * right[i])%modu) % modu;
+            result = (result + (long long)((long long)arr[i] * left[i] * right[i])%modu) % modu;
         }
         return (int)result;
     }
