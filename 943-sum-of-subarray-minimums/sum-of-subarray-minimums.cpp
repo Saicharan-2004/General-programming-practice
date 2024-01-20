@@ -4,8 +4,8 @@ public:
     {
         int counter=1;
         int n=arr.size();
-        vector<long>right(n);
-        vector<long>left(n);
+        vector<long long>right(n);
+        vector<long long>left(n);
         stack<pair<int,int>>temp;
         for(int i=0;i<n;i++)
         {
