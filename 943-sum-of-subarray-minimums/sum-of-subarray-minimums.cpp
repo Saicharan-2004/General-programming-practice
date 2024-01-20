@@ -38,7 +38,7 @@ public:
         // long ans=0;
         int modu=1e9+7;
         long long result = 0;
-        for (int i = 0; i < n; ++i) 
+        for (int i = 0; i < n; i++) 
         {
             result = (result + (arr[i] * left[i] * right[i])%modu) % modu;
         }
