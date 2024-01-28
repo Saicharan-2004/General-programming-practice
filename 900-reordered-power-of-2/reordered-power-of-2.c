@@ -4,46 +4,70 @@
 #include <math.h>
 #include <string.h>
 
-// Function to check if the input n can be reordered to form a power of 2
-bool reorderedPowerOf2(int n) {
-    // Convert n to a string
-    char s[20];
-    sprintf(s, "%d", n);
+void merge(char arr[], int l, int m, int r) {
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
 
-    // Sort the characters in the string
-    int len = strlen(s);
-    for (int i = 0; i < len - 1; i++) {
-        for (int j = 0; j < len - i - 1; j++) {
-            if (s[j] > s[j + 1]) {
-                // Swap characters
-                char temp = s[j];
-                s[j] = s[j + 1];
-                s[j + 1] = temp;
-            }
+    char L[n1], R[n2];
+
+    for (i = 0; i < n1; i++)
+        L[i] = arr[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = arr[m + 1 + j];
+
+    i = 0;
+    j = 0;
+    k = l;
+
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        } else {
+            arr[k] = R[j];
+            j++;
         }
+        k++;
     }
 
-    // Generate and sort strings for powers of 2
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+void mergeSort(char arr[], int l, int r) {
+    if (l < r) {
+        int m = l + (r - l) / 2;
+
+        mergeSort(arr, l, m);
+        mergeSort(arr, m + 1, r);
+
+        merge(arr, l, m, r);
+    }
+}
+
+bool reorderedPowerOf2(int n) {
+    char s[20];
+    sprintf(s, "%d", n);
+    int len = strlen(s);
+    mergeSort(s, 0, len - 1);
+
     char power[31][20];
     for (int i = 0; i <= 30; i++) {
         int p = (int)pow(2, i);
         sprintf(power[i], "%d", p);
-
-        // Sort the characters in the power string
-        int powerLen = strlen(power[i]);
-        for (int j = 0; j < powerLen - 1; j++) {
-            for (int k = 0; k < powerLen - j - 1; k++) {
-                if (power[i][k] > power[i][k + 1]) {
-                    // Swap characters
-                    char temp = power[i][k];
-                    power[i][k] = power[i][k + 1];
-                    power[i][k + 1] = temp;
-                }
-            }
-        }
+        mergeSort(power[i], 0, strlen(power[i]) - 1);
     }
 
-    // Check if the sorted string matches any sorted power of 2 string
     for (int i = 0; i <= 30; i++) {
         if (strcmp(power[i], s) == 0) {
             return true;
