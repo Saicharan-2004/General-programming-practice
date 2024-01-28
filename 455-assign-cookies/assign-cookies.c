@@ -1,14 +1,12 @@
 #include <stdio.h>
-void insertionSort(int arr[], int n)
-{
+
+void insertionSort(int arr[], int n) {
     int i, key, j;
-    for (i = 1; i < n; i++)
-    {
+    for (i = 1; i < n; i++) {
         key = arr[i];
         j = i - 1;
 
-        while (j >= 0 && arr[j] > key)
-        {
+        while (j >= 0 && arr[j] > key) {
             arr[j + 1] = arr[j];
             j = j - 1;
         }
@@ -16,31 +14,24 @@ void insertionSort(int arr[], int n)
     }
 }
 
-int findContentChildren(int *greed, int greedSize, int *cookies, int cookiesSize)
-{
+int findContentChildren(int* greed, int greedSize, int* cookies, int cookiesSize) {
     insertionSort(greed, greedSize);
     insertionSort(cookies, cookiesSize);
 
     int contentChildren = 0;
+    int greedIndex = 0;
     int cookieIndex = 0;
 
-    for (int i = 0; i < greedSize; i++)
-    {
-        while (cookieIndex < cookiesSize && cookies[cookieIndex] < greed[i])
-        {
-            cookieIndex++;
-        }
-
-        if (cookieIndex < cookiesSize)
-        {
+    while (greedIndex < greedSize && cookieIndex < cookiesSize) {
+        if (cookies[cookieIndex] >= greed[greedIndex]) {
+            // Assign the current cookie to the child
             contentChildren++;
-            cookieIndex++;
+            greedIndex++;
         }
-        else
-        {
-            break;
-        }
+        // Move to the next available cookie
+        cookieIndex++;
     }
 
     return contentChildren;
 }
+
