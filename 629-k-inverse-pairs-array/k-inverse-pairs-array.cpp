@@ -23,28 +23,31 @@ public:
     }
     int kInversePairs(int n, int k) 
     {
-        vector<vector<int>>dp(n+1,vector<int>(k+1,-1));
-        return (int)helper(n,k,dp);
-        // for(int i=0;i<=n;i++)
-        // {
-        //     dp[i][0]=1;
-        // }
-        // for(int i=1;i<=n;i++)
-        // {
-        //     for(int j=1;j<=k;j++)
-        //     {
-        //         if((j)>(i*(i-1))/2)
-        //         {
-        //             dp[i][j]=0;
-        //             break;
-        //         }
-        //         dp[i][j]=(dp[i-1][j]%modu+dp[i][j-1]%modu)%modu;
-        //         if(j>=n)
-        //         {
-        //             dp[i][j]=(dp[i][j] - dp[i-1][j-i])%modu;
-        //         }
-        //     }
-        // }
-        // return (int)dp[n][k]%modu;
+        vector<vector<long long>>dp(n+1,vector<long long>(k+1,0));
+        // return (int)helper(n,k,dp);
+        for(int i=0;i<=n;i++)
+        {
+            dp[i][0]=1;
+        }
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=k;j++)
+            {
+                if((j)>(i*(i-1))/2)
+                {
+                    dp[i][j]=0;
+                    break;
+                }
+                if(j>=i)
+                {
+                    dp[i][j]=(dp[i-1][j]+dp[i][j-1]-dp[i-1][j-i]+mod)%mod;
+                }
+                else
+                {
+                    dp[i][j]=(dp[i-1][j]+dp[i][j-1]+mod)%mod;
+                }
+            }
+        }
+        return (int)dp[n][k]%mod;
     }
 };
