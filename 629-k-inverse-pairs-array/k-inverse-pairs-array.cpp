@@ -19,7 +19,7 @@ public:
         {
             return dp[n][k];
         }
-        return dp[n][k]=(helper(n-1, k,dp)+helper(n, k-1,dp)-helper(n-1, k-n,dp)+mod)%mod;
+        return dp[n][k]=(helper(n-1, k,dp)+helper(n, k-1,dp)-helper(n-1, k-n,dp))%mod;
     }
     int kInversePairs(int n, int k) 
     {
