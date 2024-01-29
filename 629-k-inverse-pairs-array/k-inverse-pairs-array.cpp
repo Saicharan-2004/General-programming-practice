@@ -33,11 +33,11 @@ public:
         {
             for(int j=1;j<=k;j++)
             {
-                if((j)>(i*(i-1))/2)
-                {
-                    dp[i][j]=0;
-                    break;
-                }
+                // if((j)>(i*(i-1))/2)
+                // {
+                //     dp[i][j]=0;
+                //     break;
+                // }
                 if(j>=i)
                 {
                     dp[i][j]=(dp[i-1][j]+dp[i][j-1]-dp[i-1][j-i]+mod)%mod;
