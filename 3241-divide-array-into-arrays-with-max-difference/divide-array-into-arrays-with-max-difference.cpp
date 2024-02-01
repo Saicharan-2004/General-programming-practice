@@ -15,7 +15,7 @@ public:
             cout<<i<<" ";
             if(r+2<arr.size())
             {
-                if(abs(arr[r]-arr[r+1])<=k&&abs(arr[r]-arr[r+2])<=k&&abs(arr[r+2]-arr[r+1])<=k)
+                if(abs(arr[i + 2] - arr[i]) <= k)
                 {
                     vector<int>temp={arr[r],arr[r+1],arr[r+2]};
                     ans.push_back(temp);
