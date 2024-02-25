@@ -2,33 +2,37 @@ class Solution {
 public:
     long long zeroFilledSubarray(vector<int>& arr) 
     {
-        vector<long long int>temp;
+        // vector<long long int>temp;
         int start=0;
         int end=0;
         int n=arr.size();
+        long long int sum=0;
         while(end<n && start<n)
         {
-            if(end < n && arr[start]!=0 && arr[end]!=0)
+            if(end<n)
             {
-                start++;
-                end++;
-            }
-            if(end<n && arr[end]==0)
-            {
-                end++;
-            }
-            if(end<n && arr[start]==0 && arr[end]!=0)
-            {
-                temp.push_back(end-start);
-                start=end;
+                if(arr[end]!=0)
+                {
+                    if(arr[start]==0)
+                    {
+                        long long int it=end-start;
+                        sum+=(long long int)(((it)*(it+1))/2);
+                        start=end;
+                    }
+                    else
+                    {
+                        start++;
+                        end++;
+                    }
+                }
+                else
+                {
+                    end++;
+                }
             }
         }
-        temp.push_back(end-start);
-        long long int sum=0;
-        for(auto it:temp)
-        {
-            sum+=(long long int)(((it)*(it+1))/2);
-        }
+        long long int it=end-start;
+        sum+=(long long int)(((it)*(it+1))/2);
         return sum;
     }
 };
