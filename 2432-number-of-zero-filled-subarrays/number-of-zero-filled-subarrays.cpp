@@ -2,7 +2,6 @@ class Solution {
 public:
     long long zeroFilledSubarray(vector<int>& arr) 
     {
-        // vector<long long int>temp;
         int start=0;
         int end=0;
         int n=arr.size();
