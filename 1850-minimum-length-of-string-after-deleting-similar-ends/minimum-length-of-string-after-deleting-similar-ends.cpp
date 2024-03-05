@@ -4,27 +4,25 @@ public:
     {
         int start=0;
         int end=s.length()-1;
-        while(start<=end)
+        while(start<end)
         {
-            int tempstart=start;
-            int tempend=end;
-            if(start==end)
-                return 1;
-            if(s[tempstart]!=s[tempend])
+            // int tempstart=start;
+            // int tempend=end;
+            if(s[start]!=s[end])
             {
-                return tempend-tempstart+1;
+                break;
             }
-            while(tempstart<=end && s[tempstart]==s[end])
+            while(s[end]==s[start] && end>start)
             {
-                tempstart++;
+                end--;
             }
-            while(tempend>=start && s[tempend]==s[start])
+            end++;
+            while(s[start]==s[end] && start<end)
             {
-                tempend--;
+                start++;
             }
-            start=tempstart;
-            end=tempend;
+            end--;
         }
-        return 0;
+        return max(0,end-start+1);
     }
 };
