@@ -1,53 +1,25 @@
 class Solution {
 public:
-    unordered_set<string>tp;
-    vector<string>helper(int n)
+    void helper(vector<string>&ans, int n,int open,int close,string str)
     {
-        if(n==1)
+        if(str.size()==2*n)
         {
-            return {"()"};
+            ans.push_back(str);
+            return;
         }
-        vector<string>temp=helper(n-1);
-        int nn=temp.size();
-        vector<string>temp1;
-        for(int i=0;i<nn;i++)
+        if(open<n)
         {
-            string s=temp[i];
-            temp1.push_back("()"+s);
-            if(tp.find(temp1.back())==tp.end())
-            {
-                tp.insert(temp1.back());
-            }
-            else
-            {
-                temp1.pop_back();
-            }
-            temp1.push_back(s+"()");
-            if(tp.find(temp1.back())==tp.end())
-            {
-                tp.insert(temp1.back());
-            }
-            else
-            {
-                temp1.pop_back();
-            }
-            for(int j=0;j<s.size();j++)
-            {
-                temp1.push_back(s.substr(0,j+1)+"()"+s.substr(j+1));
-                if(tp.find(temp1.back())==tp.end())
-                {
-                    tp.insert(temp1.back());
-                }
-                else
-                {
-                    temp1.pop_back();
-                }
-            }
+            helper(ans,n,open+1,close,str+"(");
         }
-        return temp1;
+        if(close<open)
+        {
+            helper(ans,n,open,close+1,str+")");
+        }
     }
     vector<string> generateParenthesis(int n) 
     {
-        return helper(n);
+        vector<string>ans;
+        helper(ans,n,0,0,"");
+        return ans;
     }
 };
