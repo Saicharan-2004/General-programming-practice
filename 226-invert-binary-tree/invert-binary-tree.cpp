@@ -19,9 +19,8 @@ public:
         }
         TreeNode *leftSide=invertTree(root->left);
         TreeNode *rightSide=invertTree(root->right);
-        swap(leftSide,rightSide);
-        root->left=leftSide;
-        root->right=rightSide;
+        root->left=rightSide;
+        root->right=leftSide;
         return root;
     }
 };
