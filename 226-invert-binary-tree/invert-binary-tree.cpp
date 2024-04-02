@@ -17,10 +17,9 @@ public:
         {
             return root;
         }
-        TreeNode *leftSide=invertTree(root->left);
-        TreeNode *rightSide=invertTree(root->right);
-        root->left=rightSide;
-        root->right=leftSide;
+        swap(root->right,root->left);
+        invertTree(root->left);
+        invertTree(root->right);
         return root;
     }
 };
