@@ -16,13 +16,13 @@ public:
                 temp.push(s[i]);
             }
         }
-        string ans="";
+        s="";
         while(!temp.empty())
         {
             char a=temp.top();
-            ans=a+ans;
+            s=a+s;
             temp.pop();
         }
-        return ans;
+        return s;
     }
 };
