@@ -12,27 +12,23 @@ class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) 
     {
-        if(root==NULL || root==p || root == q)
+        while(root!=NULL)
         {
-            return root;
+            int maxi=max(p->val,q->val);
+            int mini=min(p->val,q->val);
+            if(root->val < mini)
+            {
+                root=root->right;
+            }
+            else if(root->val > maxi)
+            {
+                root=root->left;
+            }
+            else
+            {
+                return root;
+            }  
         }
-        TreeNode * leftT=lowestCommonAncestor(root->left,p,q);
-        TreeNode * rightT=lowestCommonAncestor(root->right,p,q);
-        if(leftT == NULL && rightT == NULL)
-        {
-            return NULL;
-        }
-        else if(leftT == NULL)
-        {
-            return rightT;
-        }
-        else if(rightT == NULL)
-        {
-            return leftT;
-        }
-        else
-        {
-            return root;
-        }
+        return NULL;
     }
 };
