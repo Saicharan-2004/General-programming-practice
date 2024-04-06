@@ -15,15 +15,15 @@ public:
     int helper(TreeNode * root,int currMaxi)
     {
         int ans=0;
+        if(root==NULL)
+            return ans;
         if(root != NULL && root->val >=currMaxi)
         {
             currMaxi = root->val;
             ans += 1;
         }
-        if(root->left)
-            ans += helper(root->left,currMaxi);
-        if(root->right)
-            ans += helper(root->right,currMaxi);
+        ans += helper(root->left,currMaxi);
+        ans += helper(root->right,currMaxi);
         return ans;
     }
     int goodNodes(TreeNode* root) 
