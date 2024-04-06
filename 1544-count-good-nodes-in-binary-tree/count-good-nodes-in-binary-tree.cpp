@@ -17,7 +17,7 @@ public:
         int ans=0;
         if(root==NULL)
             return ans;
-        if(root != NULL && root->val >=currMaxi)
+        if(root->val >=currMaxi)
         {
             currMaxi = root->val;
             ans += 1;
