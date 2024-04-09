@@ -20,7 +20,7 @@ public:
         stack<TreeNode*>temp;
         temp.push(root);
         vector<int>ans;
-        while(!temp.empty())
+        while(temp.size() > 0)
         {
             TreeNode * front = temp.top();
             ans.push_back(front->val);
