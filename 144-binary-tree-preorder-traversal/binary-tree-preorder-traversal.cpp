@@ -17,21 +17,30 @@ public:
         {
             return {};
         }
-        stack<TreeNode*>temp;
-        temp.push(root);
+        stack<pair<TreeNode *,int>>temp1;
         vector<int>ans;
-        while(temp.size() > 0)
+        temp1.push({root,1});
+        while(temp1.size() > 0)
         {
-            TreeNode * front = temp.top();
-            ans.push_back(front->val);
-            temp.pop();
-            if(front->right)
+            pair<TreeNode *,int> front = temp1.top();
+            temp1.pop();
+            if(front.first != NULL)
             {
-                temp.push(front->right);
-            }
-            if(front->left)
-            {
-                temp.push(front->left);
+                if(front.second == 1)
+                {
+                    front.second = 2;
+                    ans.push_back(front.first->val);
+                    temp1.push(front);
+                    if(front.first->left != NULL)
+                        temp1.push({front.first->left,1});
+                }
+                else if(front.second == 2)
+                {
+                    front.second = 3;
+                    temp1.push(front);
+                    if(front.first->right != NULL)
+                        temp1.push({front.first->right,1});
+                }
             }
         }
         return ans;
