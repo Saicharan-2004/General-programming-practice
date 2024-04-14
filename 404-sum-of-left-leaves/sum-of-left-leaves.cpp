@@ -13,25 +13,19 @@ class Solution {
 public:
     void helper(TreeNode * root,int &sum,bool leftSide)
     {
-        if(root == NULL)
+        if(root == nullptr)
         {
             return ;
         }
         if(root->left == NULL && root->right == NULL)
         {
-            if(leftSide)
-            {
-                sum+=root->val;
-            }
+            if(leftSide == true)
+                sum += root->val;
         }
         if(root->left)
-        {
             helper(root->left,sum,1);
-        }
         if(root->right)
-        {
             helper(root->right,sum,0);
-        }
     }
     int sumOfLeftLeaves(TreeNode* root) {
         int sum = 0;
