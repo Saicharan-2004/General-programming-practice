@@ -19,10 +19,9 @@ public:
     //     }
     //     return counter;
     // }
-    int dp[20]{};
+    int dp[20] = {};
     int numTrees(int n) 
     {
-        // return helper(1,n);
         if(n<=1)
         {
             return 1;
