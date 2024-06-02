@@ -22,3 +22,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+# Two Pointers
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0344-reverse-string) |
+# String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0344-reverse-string) |
