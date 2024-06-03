@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
 # Tree
 |  |
 | ------- |
@@ -36,3 +37,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+# Array
+|  |
+| ------- |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+# Sorting
+|  |
+| ------- |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
