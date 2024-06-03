@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+| [0312-burst-balloons](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0312-burst-balloons) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
 # Tree
 |  |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0312-burst-balloons](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0312-burst-balloons) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
 # Sorting
 |  |
