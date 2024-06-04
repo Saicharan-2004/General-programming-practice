@@ -17,17 +17,10 @@ public:
             }
             else
             {
-                counter++;
+                counter = 1;
                 ans += it.second - 1;
             }
         }
-        if(counter > 0)
-        {
-            return ans + 1;
-        }
-        else
-        {
-            return ans;
-        }
+        return ans + counter;
     }
 };
