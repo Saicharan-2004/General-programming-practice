@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0344-reverse-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0409-longest-palindrome) |
+| [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Greedy
 |  |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0312-burst-balloons](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0312-burst-balloons) |
+| [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
 # Sorting
 |  |
@@ -53,3 +55,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0409-longest-palindrome) |
+| [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
