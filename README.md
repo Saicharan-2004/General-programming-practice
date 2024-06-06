@@ -49,11 +49,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [3430-count-days-without-meetings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3430-count-days-without-meetings) |
 # Sorting
 |  |
 | ------- |
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [3430-count-days-without-meetings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3430-count-days-without-meetings) |
 # Hash Table
 |  |
 | ------- |
