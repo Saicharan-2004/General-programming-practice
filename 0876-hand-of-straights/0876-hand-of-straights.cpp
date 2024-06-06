@@ -1,33 +1,45 @@
 class Solution {
 public:
-	bool isNStraightHand(vector<int>& nums, int k) 
-	{
-		map<int,int> mp;
-		for(int i=0;i<nums.size();i++)
-		{
-			mp[nums[i]]++;
-		}
-
-		for(auto p=mp.begin();p!=mp.end();)
-		{
-			if(p->second>0)
-			{
-				for(int i=0;i<k;i++)
-				{
-					if(mp[p->first+i]>0)
-					{
-						mp[p->first+i]--;
-					}
-					else
-						return false;
-				}
-			}
-			else
-				p++;
-		}
-
-
-		return true;
-
-	}
+    bool isNStraightHand(vector<int>& hand, int groupSize) {
+        int n = hand.size();
+        if(n%groupSize)
+        {
+            return false;
+        }
+        else
+        {
+            unordered_map<int, int> freq;
+            for (int num : hand) 
+            {
+                freq[num]++;  
+            }
+            sort(hand.begin(),hand.end());
+            for(auto it:hand)
+            {
+                bool ans = true;
+                if(freq.find(it)!=freq.end())
+                {
+                    for(int i = it;i<=it + groupSize-1;i++)
+                    {
+                        // cout<<i<<" ";
+                        if(freq.find(i)!=freq.end())
+                        {
+                            freq[i]--;
+                            if(freq[i]==0)
+                                freq.erase(i);
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+            if(freq.empty())
+            {
+                return true;
+            }
+            return false;
+        }
+    }
 };
