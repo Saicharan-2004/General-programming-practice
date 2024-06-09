@@ -51,8 +51,9 @@ public:
             nums.push_back(*i);
         
         sort(nums.begin(), nums.end());
+        sort(rv.begin(), rv.end());
         
-        int ans = helper(0, 0, nums);
+        int ans = helper(0, 0, rv);
         return ans;
         
     }
