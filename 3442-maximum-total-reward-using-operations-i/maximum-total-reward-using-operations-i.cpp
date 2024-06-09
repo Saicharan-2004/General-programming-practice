@@ -24,14 +24,14 @@ int helper(int ind,int sum,vector<int>&arr)
 {
     if(ind == arr.size())
     {
-        return dp[ind][sum] = 0;
+        return dp[ind][sum] = max(sum,0);
     }
     if(dp[ind][sum] != -1)  return dp[ind][sum];
     int nottake = helper(ind + 1,sum,arr);
     int take = -1;
     if(sum < arr[ind])
     {
-        take = arr[ind] + helper(ind+1,sum+arr[ind],arr);
+        take = helper(ind+1,sum+arr[ind],arr);
     }
     return dp[ind][sum] = max(take,nottake);
 }
