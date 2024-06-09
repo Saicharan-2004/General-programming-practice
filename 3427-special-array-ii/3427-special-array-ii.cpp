@@ -3,12 +3,10 @@ public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) 
     {
         vector<int>sense;
-        for(int i = 0;i<nums.size();i++)
-        {
-            nums[i]  = nums[i] % 2;
-        }
         for(int i = 0;i<nums.size()-1;i++)
         {
+            nums[i]  = nums[i] % 2;
+            nums[i+1]  = nums[i+1] % 2;
             if(nums[i] == nums[i+1])
             {
                 sense.push_back(i);
