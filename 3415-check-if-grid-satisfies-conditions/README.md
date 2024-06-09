@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/check-if-grid-satisfies-conditions">3415. Check if Grid Satisfies Conditions</a></h2><h3>Easy</h3><hr><p>You are given a 2D matrix <code>grid</code> of size <code>m x n</code>. You need to check if each cell <code>grid[i][j]</code> is:</p>
+<h2><a href="https://leetcode.com/problems/check-if-grid-satisfies-conditions">Check if Grid Satisfies Conditions</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a 2D matrix <code>grid</code> of size <code>m x n</code>. You need to check if each cell <code>grid[i][j]</code> is:</p>
 
 <ul>
 	<li>Equal to the cell below it, i.e. <code>grid[i][j] == grid[i + 1][j]</code> (if it exists).</li>
