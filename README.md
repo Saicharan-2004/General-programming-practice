@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
+| [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
 # Binary Tree
 |  |
 | ------- |
@@ -60,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
+| [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
 | [3430-count-days-without-meetings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3430-count-days-without-meetings) |
 # Sorting
 |  |
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1016-subarray-sums-divisible-by-k) |
+| [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
 # Matrix
 |  |
 | ------- |
