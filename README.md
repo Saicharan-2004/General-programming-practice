@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1016-subarray-sums-divisible-by-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3430-count-days-without-meetings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3430-count-days-without-meetings) |
 # Sorting
 |  |
@@ -86,3 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1016-subarray-sums-divisible-by-k) |
+# Matrix
+|  |
+| ------- |
+| [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
