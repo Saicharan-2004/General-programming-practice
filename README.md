@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
 | [0312-burst-balloons](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0312-burst-balloons) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [3403-minimum-substring-partition-of-equal-character-frequency](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3403-minimum-substring-partition-of-equal-character-frequency) |
 # Tree
 |  |
 | ------- |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0648-replace-words) |
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [3403-minimum-substring-partition-of-equal-character-frequency](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3403-minimum-substring-partition-of-equal-character-frequency) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 # Greedy
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
+| [3403-minimum-substring-partition-of-equal-character-frequency](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3403-minimum-substring-partition-of-equal-character-frequency) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 # Stack
@@ -96,3 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
+# Counting
+|  |
+| ------- |
+| [3403-minimum-substring-partition-of-equal-character-frequency](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3403-minimum-substring-partition-of-equal-character-frequency) |
