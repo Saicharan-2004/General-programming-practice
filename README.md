@@ -17,16 +17,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+| [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
 # Binary Search Tree
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+| [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
 # Binary Tree
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+| [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
 # Two Pointers
 |  |
 | ------- |
@@ -106,3 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3403-minimum-substring-partition-of-equal-character-frequency](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3403-minimum-substring-partition-of-equal-character-frequency) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
