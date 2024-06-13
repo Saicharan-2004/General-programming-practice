@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0409-longest-palindrome](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0409-longest-palindrome) |
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 # Array
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
@@ -73,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3430-count-days-without-meetings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3430-count-days-without-meetings) |
 # Hash Table
