@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
+| [0633-sum-of-square-numbers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0633-sum-of-square-numbers) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
 | [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
+| [0633-sum-of-square-numbers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0633-sum-of-square-numbers) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
 # Binary Tree
@@ -34,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0344-reverse-string) |
+| [0633-sum-of-square-numbers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0633-sum-of-square-numbers) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
