@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
 | [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0662-maximum-width-of-binary-tree) |
 # Binary Search Tree
 |  |
 | ------- |
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
 | [0222-count-complete-tree-nodes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0222-count-complete-tree-nodes) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0662-maximum-width-of-binary-tree) |
 # Two Pointers
 |  |
 | ------- |
@@ -137,3 +139,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
+# Depth-First Search
+|  |
+| ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0662-maximum-width-of-binary-tree) |
+# Breadth-First Search
+|  |
+| ------- |
+| [0662-maximum-width-of-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0662-maximum-width-of-binary-tree) |
