@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0633-sum-of-square-numbers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0853-most-profit-assigning-work) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1675-magnetic-force-between-two-balls](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1675-magnetic-force-between-two-balls) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3427-special-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3427-special-array-ii) |
 # Binary Tree
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1675-magnetic-force-between-two-balls](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1675-magnetic-force-between-two-balls) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
@@ -90,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1675-magnetic-force-between-two-balls](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1675-magnetic-force-between-two-balls) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3430-count-days-without-meetings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3430-count-days-without-meetings) |
