@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2384-root-equals-sum-of-children](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2384-root-equals-sum-of-children) |
 # Binary Search Tree
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2384-root-equals-sum-of-children](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2384-root-equals-sum-of-children) |
 # Two Pointers
 |  |
 | ------- |
