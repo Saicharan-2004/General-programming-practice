@@ -14,10 +14,10 @@ public:
     int path(int &maxi,TreeNode* root){
         if(!root)
         return 0;
-        int l=max(path(maxi,root->left),0);
-        int r=max(path(maxi,root->right),0);
-        maxi=max(maxi,l+r+root->val);
-        return root->val+max(l,r);
+        int l=path(maxi,root->left);
+        int r=path(maxi,root->right);
+        maxi=max(maxi,max(0,l) + max(0,r)+root->val);
+        return root->val+max(0,max(l,r));
     }
     int maxPathSum(TreeNode* root) {
         int maxi=INT_MIN;
