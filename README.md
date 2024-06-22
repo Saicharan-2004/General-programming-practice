@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0096-unique-binary-search-trees) |
 | [0633-sum-of-square-numbers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0633-sum-of-square-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1370-count-number-of-nice-subarrays) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1138-grumpy-bookstore-owner](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1370-count-number-of-nice-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1675-magnetic-force-between-two-balls) |
@@ -124,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1370-count-number-of-nice-subarrays) |
 | [3403-minimum-substring-partition-of-equal-character-frequency](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3403-minimum-substring-partition-of-equal-character-frequency) |
 | [3419-maximum-points-inside-the-square](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3419-maximum-points-inside-the-square) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -183,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1138-grumpy-bookstore-owner](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1138-grumpy-bookstore-owner) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1370-count-number-of-nice-subarrays) |
 # Monotonic Stack
 |  |
 | ------- |
