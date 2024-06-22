@@ -37,11 +37,10 @@ public:
             summer = max(summer,leftT.sum + rightT.sum + root->val);
             return helper(leftT.sum + rightT.sum + root->val,min(leftT.mini,root->val),max(rightT.maxi,root->val));
         }
-        // summer = max(summer,max(leftT.sum,rightT.sum));
         return helper(max(leftT.sum,rightT.sum),INT_MIN,INT_MAX);
     }
     int maxSumBST(TreeNode* root) {
-        auto ans = inorder(root);
+        inorder(root);
         return max(0,summer);
     }
 };
