@@ -88,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [0312-burst-balloons](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0312-burst-balloons) |
 | [0648-replace-words](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0648-replace-words) |
 | [0853-most-profit-assigning-work](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0853-most-profit-assigning-work) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
 # Counting
 |  |
@@ -180,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0101-symmetric-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0101-symmetric-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [0513-find-bottom-left-tree-value](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0662-maximum-width-of-binary-tree) |
@@ -191,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0101-symmetric-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0101-symmetric-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [0513-find-bottom-left-tree-value](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0662-maximum-width-of-binary-tree) |
@@ -223,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0547-number-of-provinces) |
 # Graph
 |  |
