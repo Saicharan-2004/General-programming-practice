@@ -4,31 +4,22 @@ public:
         int n = arr.size();
         int count = 0;
         int ans = 0;
-        vector<bool>check(n,false);
+        // vector<bool>check(n,false);
         for(int i = 0;i<n;i++)
         {
             if(i>=k)
             {
-                if(check[i-k])
+                if(arr[i-k] == 2)
                 {
                     count--;
                 }
             }
-            if(i<=n-k)
+            if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
             {
-                if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
-                {
-                    check[i] = true;
-                    count++;
-                    ans++;
-                }
-            }
-            else
-            {
-                if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
-                {
-                    return -1;
-                }
+                if(i>n-k)   return -1;
+                arr[i] = 2;
+                count++;
+                ans++;
             }
         }
         return ans;
