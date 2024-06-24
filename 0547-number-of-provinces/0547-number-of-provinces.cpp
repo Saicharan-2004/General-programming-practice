@@ -5,7 +5,7 @@ public:
         visited[val] = 1;
         for(int i = 0;i<mat.size();i++)
         {
-            if(val!=i && mat[val][i] && visited[i]!=true)
+            if(val!=i && mat[i][val] && visited[i]!=true)
             {
                 dfs(mat,i,visited);
             }
