@@ -4,7 +4,7 @@ public:
     {
         if(i<0 || i>=n || j<0 || j >=m) return ;
         if(grid[i][j] == '1')
-            grid[i][j] = '*';
+            grid[i][j] = '0';
         else
             return ;
         dfs(grid,i-1,j,n,m);
