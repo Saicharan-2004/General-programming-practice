@@ -5,7 +5,7 @@ public:
         int count = 0;
         int ans = 0;
         vector<bool>check(n,false);
-        for(int i = 0;i<=n-k;i++)
+        for(int i = 0;i<n;i++)
         {
             if(i>=k)
             {
@@ -14,25 +14,21 @@ public:
                     count--;
                 }
             }
-            if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
+            if(i<=n-k)
             {
-                check[i] = true;
-                count++;
-                ans++;
-            }
-        }
-        for(int i = n-k+1;i<n;i++)
-        {
-            if(i>=k)
-            {
-                if(check[i-k])
+                if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
                 {
-                    count--;
+                    check[i] = true;
+                    count++;
+                    ans++;
                 }
             }
-            if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
+            else
             {
-                return -1;
+                if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
+                {
+                    return -1;
+                }
             }
         }
         return ans;
