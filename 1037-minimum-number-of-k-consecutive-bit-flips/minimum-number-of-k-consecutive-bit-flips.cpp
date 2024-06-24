@@ -14,21 +14,12 @@ public:
                     count--;
                 }
             }
-            if(i<=n-k)
+            if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
             {
-                if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
-                {
-                    check[i] = true;
-                    count++;
-                    ans++;
-                }
-            }
-            else
-            {
-                if(arr[i] == 0 && count%2 == 0 || arr[i] == 1 && count%2 == 1)
-                {
-                    return -1;
-                }
+                if(i>n-k)   return -1;
+                check[i] = true;
+                count++;
+                ans++;
             }
         }
         return ans;
