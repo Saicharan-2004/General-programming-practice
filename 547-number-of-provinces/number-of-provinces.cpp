@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>&mat,int val,vector<bool>&visited)
+    void dfs(vector<vector<int>>&mat,int& val,vector<bool>&visited)
     {
         visited[val] = 1;
         for(int i = 0;i<mat.size();i++)
