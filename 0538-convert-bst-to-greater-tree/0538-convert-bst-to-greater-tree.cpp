@@ -11,19 +11,44 @@
  */
 class Solution {
 public:
-    void sum_node(TreeNode* node, int& acc_sum)
-    {
-        if (node == NULL) 
-            return;
-        sum_node(node->right,acc_sum);
-        node->val += acc_sum;
-        acc_sum = node->val;
-        sum_node(node->left, acc_sum);
-    }
     TreeNode* convertBST(TreeNode* root) 
     {
-        int acc_sum = 0;
-        sum_node(root,acc_sum);
+        if(root == NULL)    return root;
+        TreeNode * curr = root;
+        vector<TreeNode*>inorder;
+        while(curr != NULL)
+        {
+            if(curr->left == NULL)
+            {
+                inorder.push_back(curr);
+                curr = curr->right;
+            }
+            else
+            {
+                TreeNode * prev = curr->left;
+                while(prev->right!= NULL && prev->right!=curr)
+                {
+                    prev = prev->right;
+                }
+                if(prev ->right == NULL)
+                {
+                    prev->right = curr;
+                    curr = curr->left;
+                }
+                else
+                {
+                    prev->right = NULL;
+                    inorder.push_back(curr);
+                    curr = curr->right;
+                }
+            }
+        }
+        int prefix = inorder.back()->val;
+        for(int i = inorder.size()-2;i>=0;i--)
+        {
+            inorder[i]->val = inorder[i]->val + prefix;
+            prefix = inorder[i]->val;
+        }
         return root;
     } 
 };
