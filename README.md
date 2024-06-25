@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2384-root-equals-sum-of-children) |
 # Binary Search Tree
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0633-sum-of-square-numbers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0853-most-profit-assigning-work) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1675-magnetic-force-between-two-balls) |
@@ -55,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2384-root-equals-sum-of-children) |
 # Two Pointers
@@ -191,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 # Breadth-First Search
 |  |
