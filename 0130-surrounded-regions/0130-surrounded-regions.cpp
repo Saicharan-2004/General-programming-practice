@@ -3,32 +3,29 @@ public:
     void solve(vector<vector<char>>& board) {
         int n = board.size();
         int m = board[0].size();
+        if(n == 1 || m == 1)    return ;
         vector<vector<bool>>visited(n,vector<bool>(m,false));
         queue<pair<int,int>>q;
-        for(int j = 0;j<m;j++)
+        for(int i = 0;i<n;i+=n-1)
         {
-            if(board[0][j] == 'O' && visited[0][j] == false)
+            for(int j = 0;j<m;j++)
             {
-                q.push({0,j});
-                visited[0][j] = true;
-            }
-            if(board[n-1][j] == 'O' && visited[n-1][j] == false)
-            {
-                q.push({n-1,j});
-                visited[n-1][j] = true;
+                if(board[i][j] == 'O' && visited[i][j] == false)
+                {
+                    q.push({i,j});
+                    visited[i][j] = true;
+                }
             }
         }
-        for(int j = 0;j<n;j++)
+        for(int i = 0;i<m;i+=m-1)
         {
-            if(board[j][0] == 'O' && visited[j][0] == false)
+            for(int j = 0;j<n;j++)
             {
-                q.push({j,0});
-                visited[j][0] = true;
-            }
-            if(board[j][m-1] == 'O' && visited[j][m-1] == false)
-            {
-                q.push({j,m-1});
-                visited[j][m-1] = true;
+                if(board[j][i] == 'O' && visited[j][i] == false)
+                {
+                    q.push({j,i});
+                    visited[j][i] = true;
+                }
             }
         }
         int dx[] = {-1,0,1,0};
@@ -53,7 +50,7 @@ public:
         {
             for(int j = 0;j<m;j++)
             {
-                if(visited[i][j] == false && board[i][j] == 'O')    
+                if(!visited[i][j] && board[i][j] == 'O')    
                     board[i][j] = 'X';
             }
         }
