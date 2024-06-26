@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1044-find-common-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1044-find-common-characters) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1073-number-of-enclaves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1073-number-of-enclaves) |
 | [1138-grumpy-bookstore-owner](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1217-relative-sort-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1370-count-number-of-nice-subarrays) |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1073-number-of-enclaves) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3415-check-if-grid-satisfies-conditions) |
 # Counting
 |  |
@@ -210,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1073-number-of-enclaves) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1285-balance-a-binary-search-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -228,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1073-number-of-enclaves) |
 # Sliding Window
 |  |
 | ------- |
@@ -258,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1073-number-of-enclaves) |
 # Graph
 |  |
 | ------- |
