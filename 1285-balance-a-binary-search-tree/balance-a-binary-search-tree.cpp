@@ -11,14 +11,13 @@
  */
 class Solution {
 public:
-    TreeNode * balance(TreeNode * root,int start,int end,vector<int>inorder)
+    void balance(TreeNode * &root,int start,int end,vector<int> &inorder)
     {
-        if(start>end)   return NULL;
+        if(start>end)   return ;
         int mid = (start+end)/2;
         root = new TreeNode(inorder[mid]);
-        root->left =  balance(root->left,start,mid-1,inorder);
-        root->right =  balance(root->right,mid+1,end,inorder);
-        return root;
+        balance(root->left,start,mid-1,inorder);
+        balance(root->right,mid+1,end,inorder);
     }
     TreeNode* balanceBST(TreeNode* root) {
         vector<int>inorder;
@@ -50,7 +49,9 @@ public:
                 }
             }
         }
-        return balance(root,0,inorder.size()-1,inorder);
+        TreeNode * head = NULL;
+        balance(head,0,inorder.size()-1,inorder);
+        return head;
     }
 };
 auto init = [](){
