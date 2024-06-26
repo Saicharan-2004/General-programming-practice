@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    TreeNode * balance(TreeNode * root,int start,int end,vector<int>inorder)
+    TreeNode * balance(TreeNode * &root,int start,int end,vector<int>inorder)
     {
         if(start>end)   return NULL;
         int mid = (start+end)/2;
