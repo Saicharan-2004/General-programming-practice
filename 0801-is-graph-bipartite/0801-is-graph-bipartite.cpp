@@ -2,25 +2,24 @@ class Solution {
 public:
     bool bfs(int start,vector<vector<int>>&graph,vector<int>&visited)
     {
-        queue<pair<int,int>>q;
+        queue<int>q;
         int n = graph.size();
         bool color = true;
-        q.push({start,color});
+        q.push(start);
         while(!q.empty())
         {
-            int front = q.front().first;
-            int color = q.front().second;
+            int front = q.front();
             q.pop();
             for(auto it:graph[front])
             {
                 if(visited[it] == -1)
                 {
-                    visited[it] = !color;
-                    q.push({it,!color});
+                    visited[it] = !visited[front];
+                    q.push(it);
                 }
                 else
                 {
-                    if(visited[it] == color)
+                    if(visited[it] == visited[front])
                     {
                         return false;
                     }
@@ -60,8 +59,8 @@ public:
         {
             if(visited[i] == -1)
             {
-                // bool r = bfs(i,graph,visited);
-                bool r = dfs(i,graph,visited,0);
+                bool r = bfs(i,graph,visited);
+                // bool r = dfs(i,graph,visited,0);
                 if(!r)  return false;
             }
         }
