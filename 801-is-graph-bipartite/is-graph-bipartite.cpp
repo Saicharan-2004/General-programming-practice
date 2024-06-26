@@ -30,6 +30,28 @@ public:
         return true;
 
     }
+    bool dfs(int start,vector<vector<int>>&graph,vector<int>&visited,int color)
+    {
+        visited[start] = color;
+        for(auto it:graph[start])
+        {
+            if(visited[it] == -1)
+            {
+                if(!dfs(it,graph,visited,1-color))
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                if(visited[it] == color)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
         vector<int>visited(n,-1);
@@ -38,7 +60,8 @@ public:
         {
             if(visited[i] == -1)
             {
-                bool r = bfs(i,graph,visited);
+                // bool r = bfs(i,graph,visited);
+                bool r = dfs(i,graph,visited,0);
                 if(!r)  return false;
             }
         }
