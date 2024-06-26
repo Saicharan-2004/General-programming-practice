@@ -53,3 +53,9 @@ public:
         return balance(0,inorder.size()-1,inorder);
     }
 };
+auto init = [](){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
