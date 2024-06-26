@@ -32,9 +32,8 @@ public:
     }
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
-        vector<int>visited(n+1,-1);
+        vector<int>visited(n,-1);
         //-1 indicating that the node is not colored.
-        queue<int>q;
         for(int i = 0;i<n;i++)
         {
             if(visited[i] == -1)
