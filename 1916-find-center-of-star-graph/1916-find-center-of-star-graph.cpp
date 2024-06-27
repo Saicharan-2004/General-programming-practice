@@ -1,22 +1,14 @@
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
-        unordered_map<int,int>tp;
-        for(auto it:edges)
-        {
-            tp[it[0]]++;
-            tp[it[1]]++;
-        }
-        int maxi = 0;
-        int ans = 0;
-        for(auto it:tp)
-        {
-            if(it.second>maxi)
-            {
-                maxi = it.second;
-                ans = it.first;
-            }
-        }
-        return ans;
+        vector<int>edge1 = edges[0];
+        vector<int>edge2 = edges[1];
+
+        if(edge1[0] == edge2[0]) return edge1[0];
+        if(edge1[0] == edge2[1]) return edge1[0];
+        if(edge1[1] == edge2[0]) return edge1[1];
+        if(edge1[1] == edge2[1]) return edge1[1];
+
+        return -1;
     }
 };
