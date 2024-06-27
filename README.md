@@ -271,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0547-number-of-provinces](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0801-is-graph-bipartite) |
+| [1916-find-center-of-star-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1916-find-center-of-star-graph) |
 # Divide and Conquer
 |  |
 | ------- |
