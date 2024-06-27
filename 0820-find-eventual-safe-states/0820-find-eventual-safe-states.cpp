@@ -34,8 +34,9 @@ public:
     }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n = graph.size();
+        vector<int>safe
         isCyclic(n,graph);
-        sort(fin.begin(),fin.end());
+        sort(fin.begin(),fin.end());//can avoid this;
         return fin;
     }
 };
