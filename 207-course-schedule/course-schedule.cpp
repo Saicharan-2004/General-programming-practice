@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool dfs(int start,vector<vector<int>>adj,vector<int>&visited)
+    bool dfs(int start,vector<vector<int>> &adj,vector<int>&visited)
     {
         visited[start] = 2;
         for(auto it:adj[start])
@@ -18,7 +18,7 @@ public:
         visited[start] = 1;
         return false;
     }
-    bool isCyclic(int V, vector<vector<int>>adj)
+    bool isCyclic(int V, vector<vector<int>> &adj)
     {
         vector<int>visited(V,0);
         for(int i = 0;i<V;i++)
