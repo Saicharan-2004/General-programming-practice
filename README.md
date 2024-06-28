@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0409-longest-palindrome) |
+| [0502-ipo](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0502-ipo) |
 | [0853-most-profit-assigning-work](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0200-number-of-islands) |
 | [0312-burst-balloons](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0312-burst-balloons) |
+| [0502-ipo](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0502-ipo) |
 | [0542-01-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0542-01-matrix) |
 | [0648-replace-words](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0648-replace-words) |
 | [0733-flood-fill](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0733-flood-fill) |
@@ -130,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0502-ipo](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0502-ipo) |
 | [0853-most-profit-assigning-work](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -164,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Heap (Priority Queue)
 |  |
 | ------- |
+| [0502-ipo](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0502-ipo) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2379-maximum-total-importance-of-roads) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
