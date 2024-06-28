@@ -27,7 +27,7 @@ public:
         {
             if(visited[i] == 0)
             {
-                bool ans = dfs(i,adj,visited);
+                dfs(i,adj,visited);
             }
         }
         return false;
@@ -36,10 +36,11 @@ public:
         vector<vector<int>>adj(numCourses);
         for(auto it:prerequisites)
         {
-            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
         }
         isCyclic(numCourses,adj);
         if(ans.size() != numCourses)    return {};
+        reverse(ans.begin(),ans.end());
         return ans;
     }
 };
