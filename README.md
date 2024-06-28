@@ -299,3 +299,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0820-find-eventual-safe-states) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
+## String
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
+<!---LeetCode Topics End-->
