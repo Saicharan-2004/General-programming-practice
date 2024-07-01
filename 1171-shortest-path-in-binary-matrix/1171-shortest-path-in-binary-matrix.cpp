@@ -1,7 +1,7 @@
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-        set<pair<pair<int,int>,int>>pq;
+        queue<pair<pair<int,int>,int>>pq;
         int n = grid.size();
         int m = grid[0].size();
         vector<vector<int>>dist(n,vector<int>(m,1e9));
@@ -9,14 +9,14 @@ public:
             dist[0][0] = 0;
         else
             return -1;
-        pq.insert({{0,0},0});
+        pq.push({{0,0},0});
         while(!pq.empty())
         {
-            auto it = *(pq.begin());
+            auto it = pq.front();
             int dis = it.first.first;
             int x = it.first.second;
             int y = it.second;
-            pq.erase(it);
+            pq.pop();
             for(int i = -1;i<=1;i++)
             {
                 for(int j = -1;j<=1;j++)
@@ -33,12 +33,8 @@ public:
                         {
                            if(grid[row][col] == 0)
                            {
-                                if(dist[row][col]!=1e9)
-                                {
-                                    pq.erase({{dist[row][col],row},col});
-                                }
                                 dist[row][col] = dis + 1;
-                                pq.insert({{dis+1,row},col});
+                                pq.push({{dis+1,row},col});
                            }
                         }
                     }
