@@ -16,6 +16,10 @@ public:
             int dis = it.first.first;
             int x = it.first.second;
             int y = it.second;
+            if(x == n-1 && y == m-1)
+            {
+                return dis + 1;
+            }
             pq.pop();
             for(int i = -1;i<=1;i++)
             {
