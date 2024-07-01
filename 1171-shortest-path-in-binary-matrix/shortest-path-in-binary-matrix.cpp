@@ -33,6 +33,10 @@ public:
                         {
                            if(grid[row][col] == 0)
                            {
+                                if(dist[row][col]!=1e9)
+                                {
+                                    pq.erase({{dist[row][col],row},col});
+                                }
                                 dist[row][col] = dis + 1;
                                 pq.insert({{dis+1,row},col});
                            }
