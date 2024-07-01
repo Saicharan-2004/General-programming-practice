@@ -315,10 +315,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 ## Depth-First Search
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
@@ -333,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1293-three-consecutive-odds) |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3429-special-array-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3429-special-array-i) |
 ## Prefix Sum
@@ -343,8 +346,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 ## Matrix
 |  |
 | ------- |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
+## Binary Search
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
