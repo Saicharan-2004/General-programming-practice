@@ -1,29 +1,77 @@
 class Solution {
 public:
-    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-        vector<vector<int>>dist(n,vector<int>(n,1e9));
+    
+    vector<int>dijkstra(int sc,vector<vector<int>>&edges,int n)
+    {
+        vector<vector<pair<int,int>>>adj(n);
         for(auto it:edges)
         {
             int x = it[0];
             int y = it[1];
             int wt = it[2];
-            dist[x][y] = wt;
-            dist[y][x] = wt;
+            adj[x].push_back({y,wt});
+            adj[y].push_back({x,wt});
         }
-        for(int i = 0;i<n;i++)
+        vector<int>dist(n,1e9);
+        dist[sc] = 0;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
+        pq.push({0,sc});
+        while(!pq.empty())
         {
-            dist[i][i] = 0;
-        }
-        for(int via = 0;via < n;via++)
-        {
-            for(int i = 0;i<n;i++)
+            int currDist = pq.top().first;
+            int node = pq.top().second;
+            pq.pop();
+            for(auto it:adj[node])
             {
-                for(int j = 0;j<n;j++)
+                int currNode = it.first;
+                int edgeWt = it.second;
+                if(edgeWt + currDist < dist[currNode])
                 {
-                    dist[i][j] = min(dist[i][j],dist[i][via]+dist[via][j]);
+                    dist[currNode] = edgeWt + currDist;
+                    pq.push({edgeWt+currDist,currNode});
                 }
             }
         }
+        return dist;
+    }
+    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
+        vector<vector<int>>dist(n,vector<int>(n,1e9));
+
+
+        
+        //Dijkstra at every node(To improve TC)
+        for(int i = 0;i<n;i++)
+        {
+            dist[i] = dijkstra(i,edges,n);
+        }
+
+
+
+
+        //Floyd Warshall Algorithm(standard)
+
+        // for(auto it:edges)
+        // {
+        //     int x = it[0];
+        //     int y = it[1];
+        //     int wt = it[2];
+        //     dist[x][y] = wt;
+        //     dist[y][x] = wt;
+        // }
+        // for(int i = 0;i<n;i++)
+        // {
+        //     dist[i][i] = 0;
+        // }
+        // for(int via = 0;via < n;via++)
+        // {
+        //     for(int i = 0;i<n;i++)
+        //     {
+        //         for(int j = 0;j<n;j++)
+        //         {
+        //             dist[i][j] = min(dist[i][j],dist[i][via]+dist[via][j]);
+        //         }
+        //     }
+        // }
         int ans = -1;
         int maxCounter = INT_MAX;
         for(int i = 0;i<n;i++)
