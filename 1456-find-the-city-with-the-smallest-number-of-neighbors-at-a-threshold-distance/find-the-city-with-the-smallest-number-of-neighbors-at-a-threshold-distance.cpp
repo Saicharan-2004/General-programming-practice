@@ -36,25 +36,28 @@ public:
     }
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
         vector<vector<int>>dist(n,vector<int>(n,1e9));
-        for(auto it:edges)
-        {
-            int x = it[0];
-            int y = it[1];
-            int wt = it[2];
-            dist[x][y] = wt;
-            dist[y][x] = wt;
-        }
 
+
+        
         //Dijkstra at every node(To improve TC)
-
         for(int i = 0;i<n;i++)
         {
             dist[i] = dijkstra(i,edges,n);
         }
 
 
+
+
         //Floyd Warshall Algorithm(standard)
 
+        // for(auto it:edges)
+        // {
+        //     int x = it[0];
+        //     int y = it[1];
+        //     int wt = it[2];
+        //     dist[x][y] = wt;
+        //     dist[y][x] = wt;
+        // }
         // for(int i = 0;i<n;i++)
         // {
         //     dist[i][i] = 0;
