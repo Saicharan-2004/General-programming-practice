@@ -305,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 ## String
 |  |
 | ------- |
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1293-three-consecutive-odds) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
@@ -358,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 ## Heap (Priority Queue)
 |  |
@@ -372,4 +375,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0803-cheapest-flights-within-k-stops) |
+## Two Pointers
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
+## Sorting
+|  |
+| ------- |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 <!---LeetCode Topics End-->
