@@ -9,14 +9,9 @@ public:
         vector<int>ans;
         for(auto it:nums2)
         {
-            if(tp.find(it) == tp.end())
-            {
-
-            }
-            else
+            if(tp[it]>0)
             {
                 tp[it]--;
-                if(tp[it] == 0) tp.erase(it);
                 ans.push_back(it);
             }
         }
