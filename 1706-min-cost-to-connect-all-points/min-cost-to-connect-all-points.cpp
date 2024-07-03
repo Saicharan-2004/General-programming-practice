@@ -57,6 +57,12 @@ class DisjointSet
             size[ult_v]+=size[ult_u];
         }
     }
+    void unionTemp(int u,int v)
+    {
+        int ult_u = findUltParent(u);
+        int ult_v = findUltParent(v);
+        parent[ult_u] = ult_v;
+    }
 };
 
 
@@ -87,7 +93,7 @@ public:
             }
             else
             {
-                ds.unionByRank(x,y);
+                ds.unionTemp(x,y);
                 fin+=wt;
             }
         }
