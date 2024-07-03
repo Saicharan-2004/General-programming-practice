@@ -87,7 +87,7 @@ public:
             }
             else
             {
-                ds.unionByRank(x,y);
+                ds.unionBySize(x,y);
                 fin+=wt;
             }
         }
