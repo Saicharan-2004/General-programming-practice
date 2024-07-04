@@ -307,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 ## String
 |  |
 | ------- |
@@ -329,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
@@ -336,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -369,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1706-min-cost-to-connect-all-points) |
