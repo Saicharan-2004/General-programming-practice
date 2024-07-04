@@ -13,19 +13,6 @@ public:
     ListNode* mergeNodes(ListNode* head) {
         int sum = 0;
         ListNode*temp = head;
-        // while(temp!=NULL)
-        // {
-        //     if(temp->val==0)
-        //     {
-        //         sum = 0;
-        //     }
-        //     else
-        //     {
-        //         temp->val = sum + temp->val;
-        //         sum = temp->val;
-        //     }
-        //     temp = temp->next;
-        // }
         temp = head->next;
         ListNode *prev=NULL;
         ListNode * ans;
@@ -55,7 +42,7 @@ public:
             }
             temp=temp->next;
         }
-        prev->next =NULL;
+        prev->next = NULL;
         return ans;
     }
 };
