@@ -304,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 ## Breadth-First Search
@@ -442,5 +444,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
 <!---LeetCode Topics End-->
