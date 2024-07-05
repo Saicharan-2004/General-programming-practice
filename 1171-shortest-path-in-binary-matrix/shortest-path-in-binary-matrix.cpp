@@ -51,7 +51,7 @@ public:
         vector<vector<int>> dist(n, vector<int>(n,INT_MAX)); 
         pair<int,int> src= {0,0}; 
         pair<int,int> dest= {n-1,n-1}; 
-        dist[0][0]=0; 
+        dist[0][0]=1; 
         int dr[]= {-1,0,1,0,1,-1,-1,1}; 
         int dc[]= {0,-1,0,1,1,-1,1,-1}; 
         queue<pair<int, pair<int,int>>> q; 
@@ -75,7 +75,7 @@ public:
         if(grid[0][0]==1 || grid[n-1][n-1]==1){
             return -1; 
         }
-        if(n==1) return 1; 
+        // if(n==1) return 1; 
         if(dist[n-1][n-1]== INT_MAX){
             return -1; 
         }
