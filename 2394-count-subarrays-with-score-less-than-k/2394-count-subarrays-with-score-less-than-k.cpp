@@ -9,12 +9,10 @@ public:
         while(r<n)
         {
             sum += nums[r];
-            int currLen = r-l+1;
-            while( (currLen)*sum >= k)
+            while( (r-l+1)*sum >= k)
             {
                 sum = sum - nums[l];
                 l++;
-                currLen=r-l+1;
             }
             count += r-l+1;
             r++;
