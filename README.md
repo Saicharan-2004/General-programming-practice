@@ -373,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3429-special-array-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3429-special-array-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3469-maximum-height-of-a-triangle) |
@@ -380,6 +381,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0966-binary-subarrays-with-sum) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 ## Union Find
 |  |
@@ -402,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -460,6 +463,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1034-subarrays-with-k-different-integers) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Math
 |  |
 | ------- |
