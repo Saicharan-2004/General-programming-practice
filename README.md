@@ -310,12 +310,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## String
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -447,6 +449,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Math
 |  |
 | ------- |
