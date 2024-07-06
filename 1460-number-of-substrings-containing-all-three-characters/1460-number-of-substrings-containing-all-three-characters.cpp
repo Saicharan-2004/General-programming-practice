@@ -10,23 +10,23 @@ public:
         while(right<n)
         {
             tp[s[right]]++;
-            if(tp.size() == 3)
-            {
-                ans += (n-right);
+            // if(tp.size() == 3)
+            // {
+            //     ans += (n-right);
                 while(tp.size()>=3)
                 {
+                    if(tp.size()>=3)
+                    {
+                        ans += n-right;
+                    }
                     tp[s[left]]--;
                     if(tp[s[left]]==0)
                     {
                         tp.erase(s[left]);
                     }
                     left++;
-                    if(tp.size()>=3)
-                    {
-                        ans += n-right;
-                    }
                 }
-            }
+            // }
             right++;
         }
         return ans;
