@@ -453,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1642-water-bottles) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2645-pass-the-pillow) |
 ## Enumeration
@@ -473,6 +474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2645-pass-the-pillow) |
 ## Counting
 |  |
