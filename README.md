@@ -329,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
+| [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -379,6 +380,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -409,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
+| [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 ## Binary Search
