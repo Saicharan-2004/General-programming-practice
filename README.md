@@ -368,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0713-subarray-product-less-than-k) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
+| [0890-lemonade-change](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1034-subarrays-with-k-different-integers) |
@@ -441,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0890-lemonade-change](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Minimum Spanning Tree
 |  |
