@@ -10,13 +10,14 @@ public:
             int mid = start + (end-start)/2;
             if(arr[start]<=arr[mid] && arr[mid]<=arr[end])
             {
-                mini = min(mini,arr[mid]);
+                mini = min(mini,arr[start]);
                 end = mid - 1;
             }
             else
             {
                 if(arr[end]>= arr[mid] && arr[start] >= arr[mid])
                 {
+                    mini = min(mini,arr[mid]);
                     end = mid - 1;
                 }
                 else if(arr[mid]>=arr[start] && arr[end] <= arr[mid])
