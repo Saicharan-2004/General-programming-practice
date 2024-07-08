@@ -33,7 +33,6 @@ public:
         {
             helper front = q.front();
             q.pop();
-            maxi = max(maxi,front.time);
             for(int i = 0;i<4;i++)
             {
                 int row = front.x + dx[i];
@@ -42,7 +41,12 @@ public:
                 {
                     q.push(helper(row,col,front.time+1));
                     grid[row][col] = 2;
+                    // maxi = max(maxi,front.time + 1);
                 }
+            }
+            if(q.empty())
+            {
+                maxi = front.time;
             }
         }
         for(auto it:grid)
