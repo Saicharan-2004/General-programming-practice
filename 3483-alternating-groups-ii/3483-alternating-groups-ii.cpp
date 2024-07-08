@@ -11,7 +11,7 @@ public:
         int finAns = 0;
         for(int i=0;i<n-1;i++)
         {
-            if(newColors[i]!=newColors[i+1])
+            if(newColors[i]!=newColors[(i+1)%n])
             {
                 count++;
             }
