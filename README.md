@@ -363,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0045-jump-game-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0055-jump-game) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -419,6 +420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0055-jump-game) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -444,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0055-jump-game) |
 | [0890-lemonade-change](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
