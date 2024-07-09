@@ -12,31 +12,32 @@ public:
             adj[x].push_back(tx);
             adj[y].push_back(ty);
         }
-        priority_queue<pair<long long int,long long int>,vector<pair<long long int,long long int>>,greater<pair<long long int,long long int>>>q;//This stores time taken to reach a particuar node + the nodeval
+        priority_queue<pair<long long int,long long int>,vector<pair<long long int,long long int>>,greater<pair<long long int,long long int>>>pq;//This stores time taken to reach a particuar node + the nodeval
         vector<long long>dist(n,1e15);
         vector<long long>ways(n,0); 
-        dist[0] = 0;//distance to reach a start node from start is 0.
-        ways[0] = 1;//number of ways to reach start is 1.
-        q.push({0,0});//Queue will be storing the time and the nodeval
+        dist[0] = 0;
+        ways[0] = 1;
+        pq.push({0,0});
         int modu = 1e9+7;
-        while(!q.empty())
+        
+        while(!pq.empty())
         {
-            long long int node = q.top().second;
-            long long int timeTillNow = q.top().first;
-            q.pop();
-            for(auto it:adj[node])
+            long long int dis = pq.top().first;
+            long long int curr = pq.top().second;
+            pq.pop();
+            for(auto it:adj[curr])
             {
-                long long int val = it.first;
-                long long int time  = it.second;
-                if(timeTillNow + time < dist[val])
+                long long int next = it.first;
+                long long int wt = it.second;
+                if(wt + dis < dist[next])
                 {
-                    dist[val] = timeTillNow + time;
-                    ways[val] = ways[node] % modu;
-                    q.push({timeTillNow + time,val});
+                    dist[next] = wt + dis;
+                    pq.push({wt+dis,next});
+                    ways[next] = ways[curr] % modu;
                 }
-                else if(timeTillNow + time == dist[val])
+                else if(wt + dis == dist[next])
                 {
-                    ways[val] = (ways[val]+ways[node]) % modu;
+                    ways[next] = (ways[next] + ways[curr])%modu;
                 }
             }
         }
