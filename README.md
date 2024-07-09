@@ -388,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1646-kth-missing-positive-number](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1646-kth-missing-positive-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1803-average-waiting-time) |
@@ -432,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Heap (Priority Queue)
