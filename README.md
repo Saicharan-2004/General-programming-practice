@@ -382,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1293-three-consecutive-odds) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -428,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0907-koko-eating-bananas) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
