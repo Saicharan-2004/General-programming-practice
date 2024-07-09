@@ -11,11 +11,11 @@ public:
             for(auto it:piles)
             {
                 hrs += (it/k);
-                if(it%k != 0)   hrs+=1;
+                if(it%k != 0)   
+                    hrs+=1;
             }
             if(hrs <= h)
             {
-                ans = min(ans,k);
                 end = k - 1;
             }
             else
@@ -23,6 +23,6 @@ public:
                 start = k + 1;
             }
         }
-        return ans;
+        return end+1;
     }
 };
