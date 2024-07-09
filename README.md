@@ -377,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
 | [0890-lemonade-change](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0890-lemonade-change) |
+| [0907-koko-eating-bananas](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1034-subarrays-with-k-different-integers) |
@@ -424,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0540-single-element-in-a-sorted-array) |
+| [0907-koko-eating-bananas](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0907-koko-eating-bananas) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Heap (Priority Queue)
