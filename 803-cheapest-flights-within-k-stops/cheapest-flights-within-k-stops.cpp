@@ -12,6 +12,7 @@ public:
         queue<pair<int,pair<int,int>>>pq;
         // priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>>>pq;// node,Cost to reach that node.
         pq.push({-1,{0,src}});
+        //This means we are giving more priority to stops rather than distance.
         int maxi = INT_MAX;
         while(!pq.empty())
         {
@@ -34,10 +35,6 @@ public:
                 }
             }
         }
-        if(maxi == INT_MAX)
-        {
-            return -1;
-        }
-        return maxi;
+        return maxi == INT_MAX ? -1 : maxi;
     }
 };
