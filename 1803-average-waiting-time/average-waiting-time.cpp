@@ -14,9 +14,8 @@ public:
             }
             else
             {
-                int finishTime = total + time;
-                ans = ans + finishTime - arrival;
-                total = finishTime;
+                total = total + time;
+                ans = ans + total - arrival;
             }
         }
         return ans/(arr.size());
