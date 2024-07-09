@@ -3,6 +3,7 @@ public:
     double averageWaitingTime(vector<vector<int>>& arr) {
         double total = 0;
         double ans = 0;
+        int n =arr.size();
         for(auto it:arr)
         {
             int arrival = it[0];
@@ -18,6 +19,6 @@ public:
                 ans = ans + total - arrival;
             }
         }
-        return ans/(arr.size());
+        return ans/n;
     }
 };
