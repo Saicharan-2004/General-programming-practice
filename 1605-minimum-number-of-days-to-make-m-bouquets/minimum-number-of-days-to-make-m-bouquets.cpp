@@ -2,7 +2,7 @@ class Solution {
 public:
     int minDays(vector<int>& arr, int m, int k) {
         int n = arr.size();
-        if(n<long(m)*k)
+        if(n<(long)k*m)
         {
             return -1;
         }
