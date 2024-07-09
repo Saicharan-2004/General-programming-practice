@@ -4,7 +4,6 @@ public:
         int end = *max_element(arr.begin(),arr.end());
         int start = 1;
         // cout<<start<<" "<<end<<endl;
-        int ans = INT_MAX;
         while(start<=end)
         {
             int mid = (end+start)/2;
@@ -19,7 +18,7 @@ public:
             }
             if(sum<=k)
             {
-                ans = min(ans,mid);
+                // ans = min(ans,mid);
                 end = mid - 1;
             }
             else
@@ -27,6 +26,6 @@ public:
                 start = mid + 1;
             }
         }
-        return ans;
+        return end + 1;
     }
 };
