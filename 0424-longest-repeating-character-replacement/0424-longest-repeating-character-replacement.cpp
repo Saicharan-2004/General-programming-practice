@@ -10,14 +10,9 @@ public:
         while(right<n)
         {
             maxFreq=max(maxFreq,++mpp[s[right]]);
-            while((right-left+1)-maxFreq>k)
+            if((right-left+1)-maxFreq>k)
             {
                 mpp[s[left]]--;
-                maxFreq = 0;
-                for(auto it:mpp)
-                {
-                    maxFreq = max(maxFreq,it.second);
-                }
                 left++;
             }
             maxlen = max(maxlen,right-left+1);
