@@ -323,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1720-crawler-log-folder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1720-crawler-log-folder) |
 ## Breadth-First Search
@@ -555,5 +556,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1720-crawler-log-folder) |
 <!---LeetCode Topics End-->
