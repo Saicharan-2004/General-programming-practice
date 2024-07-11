@@ -305,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0424-longest-repeating-character-replacement) |
@@ -318,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0713-subarray-product-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0940-fruit-into-baskets) |
