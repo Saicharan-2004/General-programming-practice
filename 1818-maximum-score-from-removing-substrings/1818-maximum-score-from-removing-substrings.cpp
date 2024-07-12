@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int count = 0;
-    string helper(string s,char first,char second,int val)
+    pair<string,int> helper(string s,char first,char second,int val)
     {
         stack<int>st;
         int n = s.size();
+        int count = 0;
         for(int i=0;i<n;i++)
         {
             if(!st.empty() && s[i] == second && st.top() == first)
@@ -23,18 +23,23 @@ public:
             str+=st.top();
             st.pop();
         }
-        return str;
+        return {str,count};
     }
     int maximumGain(string s, int x, int y) {
+        int count = 0;
         if(x>y)
         {
-            string st = helper(s,'a','b',x);
-            string r = helper(st,'a','b',y);
+            auto st = helper(s,'a','b',x);
+            count += st.second;
+            auto r = helper(st.first,'a','b',y);
+            count += r.second;
         }
         else
         {
-            string st = helper(s,'b','a',y);
-            string r = helper(st,'b','a',x);
+            auto st = helper(s,'b','a',y);
+            count += st.second;
+            auto r = helper(st.first,'b','a',x);
+            count += r.second;
         }
         return count;
     }
