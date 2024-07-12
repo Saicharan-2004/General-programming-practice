@@ -1,41 +1,36 @@
 class Solution {
 public:
-    int count = 0;
-    string helper(string s,char first,char second,int val)
-    {
-        stack<int>st;
-        int n = s.size();
-        for(int i=0;i<n;i++)
-        {
-            if(!st.empty() && s[i] == second && st.top() == first)
-            {
+    pair<string,int> removePairs(string s, char first, char second, int cost) {
+        stack<char> st;
+        int summ = 0;
+        for (char ch : s) {
+            if (!st.empty() && st.top() == first && ch == second) {
+                summ += cost;
                 st.pop();
-                count += val;
-            }
-            else
-            {
-                st.push(s[i]);
+            } else {
+                st.push(ch);
             }
         }
-        string str = "";
-        while(!st.empty())
-        {
-            str+=st.top();
+        string stri = "";
+        while (!st.empty()) {
+            stri += st.top();
             st.pop();
         }
-        return str;
+        return {stri,summ};
     }
     int maximumGain(string s, int x, int y) {
-        if(x>y)
-        {
-            string st = helper(s,'a','b',x);
-            string r = helper(st,'a','b',y);
+        int ans = 0;
+        if (x > y) {
+            auto res= removePairs(s, 'a', 'b', x);
+            ans += res.second;
+            auto res2= removePairs(res.first, 'a', 'b', y);
+            ans += res2.second;
+        } else {
+            auto res= removePairs(s, 'b', 'a', y);
+            ans += res.second;
+            auto res2= removePairs(res.first, 'b', 'a', x);
+            ans += res2.second;
         }
-        else
-        {
-            string st = helper(s,'b','a',y);
-            string r = helper(st,'b','a',x);
-        }
-        return count;
+        return ans;
     }
 };
