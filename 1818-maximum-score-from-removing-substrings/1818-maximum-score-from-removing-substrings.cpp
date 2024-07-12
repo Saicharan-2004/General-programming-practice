@@ -1,7 +1,7 @@
 class Solution {
-public:
-    pair<string,int> removePairs(string s, char first, char second, int cost) {
-        stack<char> st;
+private:
+    int removePairs(std::string& s, char first, char second, int cost) {
+        std::stack<char> st;
         int summ = 0;
         for (char ch : s) {
             if (!st.empty() && st.top() == first && ch == second) {
@@ -11,25 +11,23 @@ public:
                 st.push(ch);
             }
         }
-        string stri = "";
+        s = "";
         while (!st.empty()) {
-            stri += st.top();
+            s += st.top();
             st.pop();
         }
-        return {stri,summ};
+        
+        return summ;
     }
-    int maximumGain(string s, int x, int y) {
+public:
+    int maximumGain(std::string s, int x, int y) {
         int ans = 0;
         if (x > y) {
-            auto res= removePairs(s, 'a', 'b', x);
-            ans += res.second;
-            auto res2= removePairs(res.first, 'a', 'b', y);
-            ans += res2.second;
+            ans += removePairs(s, 'a', 'b', x);
+            ans += removePairs(s, 'a', 'b', y);
         } else {
-            auto res= removePairs(s, 'b', 'a', y);
-            ans += res.second;
-            auto res2= removePairs(res.first, 'b', 'a', x);
-            ans += res2.second;
+            ans += removePairs(s, 'b', 'a', y);
+            ans += removePairs(s, 'b', 'a', x);
         }
         return ans;
     }
