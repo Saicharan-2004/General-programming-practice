@@ -25,12 +25,12 @@ public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
         helper(root,0,0);
         vector<vector<int>>ans;
-        for(auto it:tp)
+        for(auto it:tp)//This is the original bahar wala map iterator.
         {
             vector<int>temp;
-            for(auto i:it.second)
+            for(auto i:it.second)//This is the Map inside the original Map wala iterator.
             {
-                while(!i.second.empty())
+                while(!i.second.empty())//This is the PQ wala iterator
                 {
                     temp.push_back(i.second.top());
                     i.second.pop();
