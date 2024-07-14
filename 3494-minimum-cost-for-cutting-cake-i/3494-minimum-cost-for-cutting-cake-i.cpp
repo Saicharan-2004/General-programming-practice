@@ -27,13 +27,13 @@ public:
         while(i>=0)
         {
             ans+=hori[i]*horiCount;
-            vertiCount++;
+            // vertiCount++;
             i--;
         }
         while(j>=0)
         {
             ans+=verti[j]*vertiCount;
-            horiCount++;
+            // horiCount++;
             j--;
         }
         return ans;
