@@ -307,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0127-word-ladder) |
+| [0138-copy-list-with-random-pointer](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0141-linked-list-cycle) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0424-longest-repeating-character-replacement) |
@@ -523,6 +524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0061-rotate-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0328-odd-even-linked-list) |
