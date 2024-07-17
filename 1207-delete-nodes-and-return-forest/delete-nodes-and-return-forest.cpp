@@ -36,7 +36,7 @@ public:
             deleteNodes.insert(it);
         }
         helper(root,deleteNodes);
-        if(root!=NULL)
+        if(root)
             ans.push_back(root);
         return ans;
     }
