@@ -12,7 +12,7 @@
 class Solution {
 public:
     vector<TreeNode*>ans;
-    void helper(TreeNode* &root,unordered_set<int>del)
+    void helper(TreeNode* &root,set<int>del)
     {
         if(root == NULL)
         {
@@ -30,7 +30,7 @@ public:
         }
     }
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        unordered_set<int>deleteNodes;
+        set<int>deleteNodes;
         for(auto it:to_delete)
         {
             deleteNodes.insert(it);
