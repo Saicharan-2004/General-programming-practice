@@ -334,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1720-crawler-log-folder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2736-minimum-additions-to-make-valid-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2736-minimum-additions-to-make-valid-string) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -485,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2736-minimum-additions-to-make-valid-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2736-minimum-additions-to-make-valid-string) |
 ## Shortest Path
 |  |
 | ------- |
@@ -518,6 +520,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2736-minimum-additions-to-make-valid-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2736-minimum-additions-to-make-valid-string) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -594,6 +597,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2736-minimum-additions-to-make-valid-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2736-minimum-additions-to-make-valid-string) |
 ## Tree
 |  |
 | ------- |
