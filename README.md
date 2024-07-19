@@ -362,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
+| [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 ## Graph
 |  |
 | ------- |
@@ -373,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1706-min-cost-to-connect-all-points) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 ## Topological Sort
 |  |
 | ------- |
@@ -421,6 +423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3429-special-array-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3429-special-array-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3469-maximum-height-of-a-triangle) |
@@ -489,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2736-minimum-additions-to-make-valid-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2736-minimum-additions-to-make-valid-string) |
+| [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 ## Shortest Path
 |  |
 | ------- |
@@ -608,6 +612,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 ## Binary Tree
 |  |
 | ------- |
