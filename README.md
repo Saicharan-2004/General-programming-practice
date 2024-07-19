@@ -410,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1293-three-consecutive-odds) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1646-kth-missing-positive-number](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1646-kth-missing-positive-number) |
@@ -449,6 +450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0854-making-a-large-island](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 ## Binary Search
 |  |
