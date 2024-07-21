@@ -374,12 +374,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1706-min-cost-to-connect-all-points) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2472-build-a-matrix-with-conditions) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 ## Topological Sort
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2472-build-a-matrix-with-conditions) |
 ## Array
 |  |
 | ------- |
@@ -423,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2472-build-a-matrix-with-conditions) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3429-special-array-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3429-special-array-i) |
@@ -455,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2472-build-a-matrix-with-conditions) |
 ## Binary Search
 |  |
 | ------- |
