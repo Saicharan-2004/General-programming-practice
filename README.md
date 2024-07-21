@@ -625,4 +625,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2306-create-binary-tree-from-descriptions) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
