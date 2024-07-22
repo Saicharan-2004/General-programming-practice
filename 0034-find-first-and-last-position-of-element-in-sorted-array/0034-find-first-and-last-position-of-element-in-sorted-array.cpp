@@ -5,11 +5,10 @@ public:
         auto lower = lower_bound(nums.begin(),nums.end(),target);
         int one = int(lower-nums.begin());
         int two = int(upper-nums.begin());
-        if(one >= nums.size())
+        if(one >= nums.size() || nums[one] != target)
         {
             return {-1,-1};
         }
-        if(nums[one] != target) return {-1,-1};
         return {one,two-1};
     }
 };
