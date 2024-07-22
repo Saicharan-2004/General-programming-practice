@@ -388,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0035-search-insert-position) |
 | [0045-jump-game-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0055-jump-game) |
@@ -464,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
