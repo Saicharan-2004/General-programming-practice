@@ -8,14 +8,14 @@ public:
     void set(string key, string value, int timestamp) {
         tp[key].push_back({timestamp,value});
     }
-    string get(string key, int timestamp) {
-        if(tp.find(key) == tp.end())    return "";
+    int bs(vector<pair<int,string>>&tp,int num)
+    {
         int start = 0;
-        int end = tp[key].size()-1;
+        int end = tp.size()-1;
         while(start<=end)
         {
             int mid = start + (end-start)/2;
-            if(tp[key][mid].first<=timestamp)
+            if(tp[mid].first<=num)
             {
                 start = mid + 1;
             }
@@ -24,7 +24,11 @@ public:
                 end = mid - 1;
             }
         }
-        return end == -1 ? "" : tp[key][end].second;
+        return end;
+    }
+    string get(string key, int timestamp) {
+        int num = bs(tp[key],timestamp);
+        return num == -1 ? "" : tp[key][num].second;
     }
 };
 
