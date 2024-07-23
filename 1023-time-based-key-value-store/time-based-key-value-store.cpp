@@ -27,8 +27,9 @@ public:
         return end;
     }
     string get(string key, int timestamp) {
-        int num = bs(tp[key],timestamp);
-        return num == -1 ? "" : tp[key][num].second;
+        auto & curr = tp[key];
+        int num = bs(curr,timestamp);
+        return num == -1 ? "" : curr[num].second;
     }
 };
 
