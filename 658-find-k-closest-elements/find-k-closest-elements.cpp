@@ -54,7 +54,7 @@ public:
 
         // Narrow down the window to size k
         while (right - left >= k) {
-            if (abs(arr[left] - x) > abs(arr[right] - x)) {
+            if (x - arr[left] > arr[right] - x) {
                 left++;
             } else {
                 right--;
