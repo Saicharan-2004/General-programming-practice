@@ -8,6 +8,10 @@ public:
         while(start<=end)
         {
             int mid = start + (end-start)/2;
+            if(n-mid == arr[mid])
+            {
+                return n-mid;
+            }
             if(n-mid>arr[mid])
             {
                 start = mid + 1;
