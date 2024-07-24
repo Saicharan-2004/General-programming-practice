@@ -1,6 +1,8 @@
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
+        ios::sync_with_stdio(0);
+        cin.tie(0);
         int n = nums.size();
         if(n == 1)  return nums[0];
         if(nums[0] != nums[1])  return nums[0];
