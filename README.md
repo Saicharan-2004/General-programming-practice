@@ -652,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0584-find-customer-referee](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0584-find-customer-referee) |
 | [1258-article-views-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1258-article-views-i) |
+| [1292-immediate-food-delivery-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1317-monthly-transactions-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1801-average-time-of-process-per-machine](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1801-average-time-of-process-per-machine) |
