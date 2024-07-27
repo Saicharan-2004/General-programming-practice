@@ -655,6 +655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0584-find-customer-referee](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0584-find-customer-referee) |
+| [0610-triangle-judgement](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0610-triangle-judgement) |
 | [1135-customers-who-bought-all-products](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1135-customers-who-bought-all-products) |
 | [1155-product-sales-analysis-iii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1155-product-sales-analysis-iii) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1245-user-activity-for-the-past-30-days-i) |
