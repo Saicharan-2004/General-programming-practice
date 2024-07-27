@@ -5,10 +5,7 @@ public:
         int ans = -1;
         for(auto it:prices)
         {
-            if(minPrice > it)
-            {
-                minPrice = it;
-            }
+            minPrice = min(minPrice,it);
             ans = max(ans,it-minPrice);
         }   
         return ans;
