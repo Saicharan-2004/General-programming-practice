@@ -56,10 +56,10 @@ public:
         {
             adj[original[i]-'a'].push_back({changed[i]-'a',cost[i]});
         }
-        vector<vector<int>>dist(26,vector<int>(26,INT_MAX));
+        vector<vector<long long int>>dist(26,vector<long long int>(26,INT_MAX));
         for(int i = 0;i<original.size();i++)
         {
-            dist[source[i] - 'a'][target[i] - 'a'] = cost[i];
+            dist[original[i] - 'a'][changed[i] - 'a'] = min((long long)cost[i],dist[original[i] - 'a'][changed[i] - 'a']);
         }
         for(int k = 0;k<26;k++)
         {
@@ -74,6 +74,10 @@ public:
         long long ans = 0;
         for(int i = 0;i<source.size();i++)
         {
+            if(source[i] == target[i])
+            {
+                continue;
+            }
             int curr = dist[source[i] - 'a'][target[i] - 'a'];
             if(curr >= INT_MAX)
             {
@@ -84,6 +88,6 @@ public:
         return ans;
     }
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
-        return helper(original,changed,cost,source,target);
+        return helper2(original,changed,cost,source,target);
     }
 };
