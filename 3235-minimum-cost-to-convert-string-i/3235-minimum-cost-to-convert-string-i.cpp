@@ -49,6 +49,40 @@ public:
         }
         return ans;
     }
+    long long helper2(vector<char>&original,vector<char>&changed,vector<int>&cost,string source,string target)
+    {
+        vector<vector<pair<int,int>>>adj(26);
+        for(int i = 0;i<original.size();i++)
+        {
+            adj[original[i]-'a'].push_back({changed[i]-'a',cost[i]});
+        }
+        vector<vector<int>>dist(26,vector<int>(26,INT_MAX));
+        for(int i = 0;i<original.size();i++)
+        {
+            dist[source[i] - 'a'][target[i] - 'a'] = cost[i];
+        }
+        for(int k = 0;k<26;k++)
+        {
+            for(int i = 0;i<26;i++)
+            {
+                for(int j = 0;j<26;j++)
+                {
+                    dist[i][j] = min(dist[i][j],dist[i][k] + dist[k][j]);
+                }
+            }
+        }
+        long long ans = 0;
+        for(int i = 0;i<source.size();i++)
+        {
+            int curr = dist[source[i] - 'a'][target[i] - 'a'];
+            if(curr >= INT_MAX)
+            {
+                return -1;
+            }
+            ans+=curr;
+        }
+        return ans;
+    }
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
         return helper(original,changed,cost,source,target);
     }
