@@ -6,4 +6,4 @@ left join
 from Activity
 group by player_id) as tab
 on act.player_id = tab.player_id
-and date_sub(act.event_date,interval 1 day) = tab.mini
+and datediff(act.event_date,tab.mini) = 1
