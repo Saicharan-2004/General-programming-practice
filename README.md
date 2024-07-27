@@ -402,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -537,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0141-linked-list-cycle) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0658-find-k-closest-elements](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0658-find-k-closest-elements) |
@@ -545,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0075-sort-colors) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0658-find-k-closest-elements](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0721-accounts-merge) |
