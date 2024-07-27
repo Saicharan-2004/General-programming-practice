@@ -398,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0035-search-insert-position) |
 | [0045-jump-game-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0073-set-matrix-zeroes) |
@@ -469,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0240-search-a-2d-matrix-ii) |
@@ -613,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Saicharan-2004/General-programming-practice/tree/master/0048-rotate-image) |
 | [1642-water-bottles](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2645-pass-the-pillow) |
