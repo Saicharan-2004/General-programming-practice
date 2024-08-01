@@ -339,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1720-crawler-log-folder](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2727-number-of-senior-citizens](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2727-number-of-senior-citizens) |
 | [2736-minimum-additions-to-make-valid-string](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2736-minimum-additions-to-make-valid-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Breadth-First Search
@@ -458,6 +459,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2306-create-binary-tree-from-descriptions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2472-build-a-matrix-with-conditions) |
+| [2727-number-of-senior-citizens](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2727-number-of-senior-citizens) |
 | [2739-minimize-the-total-price-of-the-trips](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2739-minimize-the-total-price-of-the-trips) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Saicharan-2004/General-programming-practice/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
