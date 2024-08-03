@@ -456,6 +456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2472-build-a-matrix-with-conditions) |
@@ -634,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1034-subarrays-with-k-different-integers](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Saicharan-2004/General-programming-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Saicharan-2004/General-programming-practice/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Math
 |  |
