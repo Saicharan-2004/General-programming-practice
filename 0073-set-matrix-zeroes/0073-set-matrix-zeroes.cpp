@@ -1,33 +1,26 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        int m = matrix[0].size();
-        vector<pair<int,int>>indexes;
-        for(int i = 0;i<n;i++)
-        {
-            for(int j = 0;j<m;j++)
-            {
-                if(matrix[i][j] == 0)
-                {
-                    indexes.push_back({i,j});
+        bool zeroinFirstCol = false;
+        for (int row = 0; row < matrix.size(); row++) {
+            if (matrix[row][0] == 0) zeroinFirstCol = true;
+            for (int col = 1; col < matrix[0].size(); col++) {
+                if (matrix[row][col] == 0) {
+                    matrix[row][0] = 0;
+                    matrix[0][col] = 0;
                 }
             }
         }
-        for(auto it:indexes)
-        {
-            int x = it.first;
-            int y = it.second;
-            // cout<<x<<" "<<y<<" ";
-            for(int i = 0;i<n;i++)
-            {
-                matrix[i][y] = 0;
+
+        for (int row = matrix.size() - 1; row >= 0; row--) {
+            for (int col = matrix[0].size() - 1; col >= 1; col--) {
+                if (matrix[row][0] == 0 || matrix[0][col] == 0) {
+                    matrix[row][col] = 0;
+                }
             }
-            for(int i = 0;i<m;i++)
-            {
-                matrix[x][i] = 0;
+            if (zeroinFirstCol) {
+                matrix[row][0] = 0;
             }
         }
-        // return matrix;
     }
 };
